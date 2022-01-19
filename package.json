@@ -1,0 +1,67 @@
+{
+  "name": "react-dev-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/module.ts",
+  "module": "./lib/module.js",
+  "types": "./lib/module.d.ts",
+  "scripts": {
+    "start": "npm-run-all --parallel test serve",
+    "serve": "webpack serve --config ./webpack.dev.js",
+    "test": "jest a --watch",
+    "lib": "webpack --config ./webpack.lib.js",
+    "lib:publish": "npm run lib && npm publish",
+    "major": "yarn version --major",
+    "minor": "yarn version --minor",
+    "patch": "yarn version --patch",
+    "update-template": "./bin/update-template.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanBlanchet/react-dev-template.git"
+  },
+  "keywords": [
+    "template",
+    "react",
+    "webpack",
+    "lib"
+  ],
+  "author": "Alan Blanchet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlanBlanchet/react-dev-template/issues"
+  },
+  "homepage": "https://github.com/AlanBlanchet/react-dev-template#readme",
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@trivago/prettier-plugin-sort-imports": "^3.1.1",
+    "@types/jest": "^27.0.3",
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.3.1",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0",
+    "webpack-merge": "^5.8.0",
+    "yarn": "^1.22.17"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "testRegex": ".*.test.ts"
+  }
+}

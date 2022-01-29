@@ -1,5 +1,12 @@
+import { DragDrop } from '../DragDrop';
 import { FunctionComponent } from 'react';
 
+import './index.module.scss';
+
 export const App: FunctionComponent = () => {
-  return <div>Hello world</div>;
+  return (
+    <div>
+      <DragDrop>HELLO WORLD</DragDrop>
+    </div>
+  );
 };

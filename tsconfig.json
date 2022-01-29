@@ -8,6 +8,7 @@
     "jsx": "react-jsx",
     "alwaysStrict": true,
     "allowUnreachableCode": false,
+    "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": false,

@@ -1,6 +1,6 @@
 {
   "name": "@generalizers/react-ox-jquery",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./src/module.ts",
   "module": "./lib/module.js",

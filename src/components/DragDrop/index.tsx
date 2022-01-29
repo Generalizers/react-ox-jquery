@@ -87,6 +87,7 @@ export const DragDrop: FunctionComponent<DragDropProps> = ({
   onDragStart,
   onDragEnd,
   onDrag,
+  className,
 }) => {
   const [dragDropRef, setDragDropRef] = useState<HTMLDivElement>();
 
@@ -130,7 +131,10 @@ export const DragDrop: FunctionComponent<DragDropProps> = ({
   }, [dragDropRef]);
 
   return (
-    <div className={styles.main} ref={(r) => r && setDragDropRef(r)}>
+    <div
+      className={`${styles.main} ${className}`}
+      ref={(r) => r && setDragDropRef(r)}
+    >
       {children}
     </div>
   );

@@ -84,6 +84,9 @@ export const DragDrop: FunctionComponent<DragDropProps> = ({
   snapTolerance,
   stack,
   zIndex,
+  onDragStart,
+  onDragEnd,
+  onDrag,
 }) => {
   const [dragDropRef, setDragDropRef] = useState<HTMLDivElement>();
 
@@ -119,6 +122,9 @@ export const DragDrop: FunctionComponent<DragDropProps> = ({
         snapTolerance,
         stack,
         zIndex,
+        start: onDragStart as any,
+        stop: onDragEnd as any,
+        drag: onDrag as any,
       });
     }
   }, [dragDropRef]);

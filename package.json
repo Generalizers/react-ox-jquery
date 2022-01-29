@@ -1,5 +1,5 @@
 {
-  "name": "react-ox-jquery",
+  "name": "@generalizers/react-ox-jquery",
   "version": "1.0.0",
   "description": "",
   "main": "./src/module.ts",
@@ -28,7 +28,11 @@
     "jquery",
     "ui"
   ],
-  "author": "Alan Blanchet",
+  "author": {
+    "name": "Alan Blanchet",
+    "email": "contact@alan-blanchet.fr",
+    "url": "https://github.com/AlanBlanchet"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Generalizers/react-ox-jquery/issues"

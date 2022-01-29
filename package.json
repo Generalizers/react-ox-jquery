@@ -1,5 +1,5 @@
 {
-  "name": "react-dev-template",
+  "name": "react-ox-jquery",
   "version": "1.0.0",
   "description": "",
   "main": "./src/module.ts",
@@ -18,20 +18,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlanBlanchet/react-dev-template.git"
+    "url": "git+https://github.com/Generalizers/react-ox-jquery.git"
   },
   "keywords": [
     "template",
     "react",
     "webpack",
-    "lib"
+    "lib",
+    "jquery",
+    "ui"
   ],
   "author": "Alan Blanchet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlanBlanchet/react-dev-template/issues"
+    "url": "https://github.com/Generalizers/react-ox-jquery/issues"
   },
-  "homepage": "https://github.com/AlanBlanchet/react-dev-template#readme",
+  "homepage": "https://github.com/Generalizers/react-ox-jquery#readme",
   "files": [
     "lib/"
   ],

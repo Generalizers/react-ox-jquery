@@ -1,3 +1,3 @@
-type LIB = 'LIB';
+import { DragDrop } from 'components/DragDrop';
 
-export { LIB };
+export { DragDrop };

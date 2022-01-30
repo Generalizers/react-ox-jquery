@@ -75,12 +75,10 @@
     "@types/jquery": "^3.5.13",
     "@types/jqueryui": "^1.12.16",
     "css-loader": "^6.5.1",
+    "jquery": "^3.6.0",
     "jquery-ui-bundle": "^1.12.1-migrate",
     "sass": "^1.49.0",
     "sass-loader": "^12.4.0",
     "style-loader": "^3.3.1"
-  },
-  "peerDependencies": {
-    "jquery": "^3.6.0"
   }
 }
